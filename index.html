@@ -1,0 +1,43 @@
+<!DOCTYPE html> 
+<html lang="pt-br"> 
+ <head> 
+ <meta charset="utf-8"> 
+ <title> Calculadora de teor alcoólico estimado (ABV) </title> 
+ 
+ <meta name="viewport" content="initial-scale=1, maximum-scale=1,user-scalable=no">
+ <meta name="apple-mobile-web-app-capable" content="yes">
+ <meta name="apple-mobile-web-app-status-bar-style" content="black">
+ 
+ 
+ <link href="dist/css/ratchet.css" rel="stylesheet"> 
+ <script src="dist/js/ratchet.js"></script>  
+</head> 
+<body> 
+ <header class="bar bar-nav"> 
+ <h1 class="title"> Calculadora de teor alcoólico estimado (ABV) </h1> 
+ </header> 
+ <div class="content" > 
+ <form class="form input-group"> 
+ <div class="input-row"> 
+ <label for="OG_med">FG:</label> 
+ <input type="number" name="OG_med" id="OG_med" 
+ placeholder="Densidade Inicial medida"> 
+ </div> 
+ <div class="input-row"> 
+ <label>FG:</label> 
+ <input type="number" name="FG_med" id="FG_med" 
+ placeholder="Densidade Final medida"> 
+ </div> 
+ </form> 
+ </div> 
+ <div class="bar bar-standard bar-footer"> 
+ <button class="btn btn-primary btn-block" onclick="CalcAbv()" 
+type="button">Calcular ABV</button> 
+ </div> 
+ </body>
+<script src="lstorage.js"></script>
+</html>
+
+
+ 
+

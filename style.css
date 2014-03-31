@@ -1,0 +1,19 @@
+h1 { 
+ font-size: 1.3em; 
+ font-weight: bold; 
+ text-transform: uppercase; 
+} 
+ 
+input { 
+ width: 50px; 
+} 
+ 
+.form label{ 
+ display:block; 
+ width: 200px; 
+ float: left; 
+} 
+ 
+button{ 
+ margin-top: 50px; 
+}
